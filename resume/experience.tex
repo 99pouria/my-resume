@@ -1,0 +1,51 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Work Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Golang System Developer in Linux EDR team} % Job title
+    {Graph inc - \textnormal{a cybersecurity company that offers an Advance Threat Detection system}} % Organization
+    {Tehran, Iran} % Location
+    {(2 yrs and 9 mos) Feb. 2021 - now} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Develop client side of EDR (Endpoint Detection and Response) with \textbf{Golang} for Linux machines by supporting Red-hat and Debian based systems.}
+        \begin{itemize}
+            \item Use \textbf{gRPC} as communication protocol of client and server.
+            \item Implement a log collector which gathers system logs (like \textbf{auditd} logs, \textbf{fanotify} notifications, etc.) and sends them to server. 
+            \item Develop an auto response mechanism that protects client against detected malware.
+            \item Create a service for both \textbf{Systemd} and \textbf{SysVinit}.
+            \item Wrap product with \textbf{RPM} and \textbf{Debian package} compatible with large range of Linux distros (CentOS, Red-hat, Ubuntu, Fedora).
+            \item Implement an updater service with Golang which is responsible for auto updating the package.
+            \item Optimize uploader and downloader module which increased its performance by 20\% and decreases network traffic about 30\%.
+        \end{itemize}
+        \item {Implement database of server side, using \textbf{ent framework} in Golang.}
+        \item {Write unit tests for Golang packages and appropriate documents for all implemented modules..}
+        \item Utilize code review to enhance maintainability and collaborate with stakeholders and business stuff to satisfy customers.
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Golang Developer} % Job title
+    {Sanjagh - \textnormal{an advertising network platform that connects advertisers with publishers}} % Organization
+    {Tehran, Iran} % Location
+    {(5 mos) Feb. 2020 - Jul. 2020} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Spend my internship in Sanjagh and implemented a \href{https://github.com/pooria1/url-shortener}{URL shortener}.}
+        \item {Learn working with APIs and writing \textbf{RESTful API} using \textbf{echo framework}.}
+        \item {Develop a cache service using Golang which caches response of another service. This cache improved response time up to 10 times faster.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
