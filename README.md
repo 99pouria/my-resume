@@ -14,11 +14,9 @@ This repository contains my resume files implemented using Awesome CV, a LaTeX t
 3. **Compilation**: Use a LaTeX editor or the command line to compile the `resume.tex` file into a PDF.
 
 ### Example
-You can see an example of the resume by opening the `resume.pdf` file in the repository.
+You can see an example of the resume by opening the `PouriaKalantari.pdf` file in the repository.
 
 ### Credits
-- **Awesome CV**: Link to the original Awesome CV repository.
-- **LaTeX**: Link to the LaTeX project.
+- **[Awesome CV](https://github.com/posquit0/Awesome-CV)**: LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv).
+- **[LaTeX](https://www.latex-project.org)**: is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
 
-### License
-State the license under which you are sharing your resume files, e.g., MIT License, Apache License 2.0.
